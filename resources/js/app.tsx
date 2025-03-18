@@ -13,6 +13,8 @@ createInertiaApp({
     setup({ el, App, props }) {
         const root = createRoot(el);
 
+        //delete
+        //delete
         root.render(<App {...props} />);
     },
     progress: {
